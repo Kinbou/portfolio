@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.3em;
+  font-size: 1.2em;
+}
+
+span {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+p {
+  padding-bottom: .5rem;
+}
+
+header {
+  display: flex;
+  background-color: black;
+  width: 100%;
+  color: #bdbdb5;
+  justify-content: center;
+  flex-direction: row;
+  height: 80px;
+  font-size: 1.5em;
+}
+nav {
+  display: flex;
+  margin: auto;
+}
+ul{
+  display: flex;
+}
+
+li {
+  padding: .5rem;
+}
+
+main {
+  height: calc(100vh - 160px);
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+body {
+  /* background-color: #292841; */
+  background-color: #bdbdb5;
+  color: black;
+  min-height: 100vh;
+  font-family: 'Cabin', sans-serif;
+}
+
+footer {
+  height: 80px;
+  background-color: black;
+  bottom: 0px;
+  color: #bdbdb5;
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__paragraph {
+  margin: auto 0;
+  text-align: center;
+
+}
+
+h1 {
+  text-align: center;
+  padding: 2rem;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+  padding: 2rem;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+/* PARCOURS ( formation et expériences ) */
+
+.parcours {
+  display: flex;
+}
+
+.parcours__formations, .parcours__experiences {
+  width: 49%;
+  padding: 2rem;
+}
+
+.parcours__barre {
+  border-right: 1px solid white;
+}
+
+/* PORTFOLIO  */
+.portfolio {
+  display: block;
+  padding-top: 4rem;
+}
+.portfolio__card {
+  width: 49%;
+  display: block;
+  margin: auto;
+  background-color: rgba(198, 202, 214, 1);
+  border-radius: 3%;
+  padding: 5rem;
+  width: 49%;
+  display: block;
+  margin: 2rem auto;
+  padding: 5rem;
+  border: none;
+  box-shadow: 1px 1px 20px #182a50;
+}
